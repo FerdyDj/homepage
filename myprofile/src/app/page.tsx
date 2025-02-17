@@ -6,7 +6,7 @@ export default function Home() {
     <div className="container">
       <div className="left">
         <div>
-        <p>Hello, I'm Ferdy</p>
+        <p className="hello">Hello, I'm Ferdy</p>
         <p>Professional Fullstack Web Development</p>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur

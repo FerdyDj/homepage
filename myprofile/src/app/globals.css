@@ -68,3 +68,23 @@ body {
   padding: 20px 50px;
   justify-content: left;
 }
+
+@keyframes animation {
+  0% {
+    text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold,
+      0 0 40px gold, 0 0 80px gold;
+  }
+  100% {
+    text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 40px aqua,
+      0 0 80px aqua, 0 0 160px aqua;
+  }
+}
+
+.hello {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold,
+    0 0 40px gold, 0 0 80px gold;
+  animation: animation 1.5s infinite alternate;
+}
