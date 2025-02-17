@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  height: 50px;
+  width: 100vw;
+  background-color: #0095ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+}
+
+.left {
+  width: 50%;
+  height: 450px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-items: right;
+}
+
+.right {
+  width: 50%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 450px;
+  height: 450px;
+}
+
+.about {
+  width: 95vw;
+  padding: 20px;
+}
+
+.contact {
+  display: flex;
+  padding: 50px;
+}
+
+.leftcon {
+  width: 50%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightcon {
+  width: 50%;
+  height: 450px;
+  padding: 20px 50px;
+  justify-content: left;
+}
