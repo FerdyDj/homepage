@@ -34,12 +34,13 @@ export default function About() {
       </div>
       <div className="p-4 w-[100%] flex justify-center gap-2">
         <img src="html.svg" alt="html" className="w-12 h-12" />
-        <img src="css.svg" alt="html" className="w-12 h-12" />
-        <img src="tw.svg" alt="html" className="w-12 h-12" />
-        <img src="ts.svg" alt="html" className="w-12 h-12" />
-        <img src="js.svg" alt="html" className="w-12 h-12" />
-        <img src="node.svg" alt="html" className="w-12 h-12" />
-        <img src="postgre.svg" alt="html" className="w-12 h-12" />
+        <img src="css.svg" alt="css" className="w-12 h-12" />
+        <img src="tw.svg" alt="tailwind" className="w-12 h-12" />
+        <img src="ts.svg" alt="typescript" className="w-12 h-12" />
+        <img src="js.svg" alt="javascript" className="w-12 h-12" />
+        <img src="node.svg" alt="nodejs" className="w-12 h-12" />
+        <img src="postgre.svg" alt="postgresql" className="w-12 h-12" />
+        <img src="mongo.svg" alt="mongodb" className="w-12 h-12" />
       </div>
     </div>
   );

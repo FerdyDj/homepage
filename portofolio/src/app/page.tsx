@@ -8,7 +8,7 @@ export default function Home() {
         <div className="max-sm:pt-0 m:pt-28">
           {/* <p className="text-2xl font-bold animate-pulse">Hello, I'm Ferdy</p> */}
           <ExampleComponent/>
-          <p className="text-lg pt-2 italic">
+          <p className="text-lg pt-2 italic text-blue-500">
             Professional Fullstack Web Development
           </p>
           <p className="text-md pt-6 leading-6">
