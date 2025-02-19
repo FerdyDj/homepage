@@ -15,7 +15,7 @@ export default function About() {
       </div>
       <div className="flex w-[100%] justify-center gap-1">
         <p className="text-gray-700 w-[450px]">
-          Hello! 👋 I'm a Junior Fullstack Web Developer with a passion for
+          Hello! 👋 I&apos;m a Junior Fullstack Web Developer with a passion for
           creating dynamic and responsive web applications. With a solid
           foundation in both front-end and back-end technologies, I enjoy taking
           ideas from concept to completion, ensuring that every project is

@@ -1,5 +1,4 @@
 import ExampleComponent from "@/components/text";
-import Image from "next/image";
 import About from "./about/page";
 import Contact from "./contact/page";
 import Motion from "@/components/motion";
@@ -17,14 +16,14 @@ export default function Home() {
                 Professional Fullstack Web Development
               </p>
               <p className="text-md pt-6 leading-6">
-                Hi, I'm from Indonesia. I'm a passionate and skilled full-stack
+                Hi, I&apos;m from Indonesia. I&apos;m a passionate and skilled full-stack
                 web developer dedicated to turning ideas into reality. With
                 expertise in both front-end and back-end technologies, I create
                 seamless and dynamic web experiences that not only look great
                 but perform flawlessly. From designing intuitive user interfaces
                 to building robust server-side applications, I strive to deliver
                 high-quality solutions tailored to your needs. Explore my
-                portfolio, discover my projects, and let's collaborate to bring
+                portfolio, discover my projects, and let&apos;s collaborate to bring
                 your digital visions to life!
               </p>
               <div className="flex flex-wrap justify-start pt-4">
