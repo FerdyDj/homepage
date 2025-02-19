@@ -10,9 +10,9 @@ export default function ExampleComponent() {
         1000,
         "I'm a Full Stack Web Developer",
         1000,
-        "I'm a Front End Developer",
+        "I can be a Front End Developer",
         1000,
-        "I'm a Back End Developer",
+        "I can also be a Back End Developer",
         1000,
       ]}
       speed={50}

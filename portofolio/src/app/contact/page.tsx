@@ -1,16 +1,16 @@
 export default function Contact() {
   return (
-    <div className="w-1vw flex p-8 justify-center items-center bg-slate-100 h-[600px]">
-      <div className="w-5/12 h-96">
+    <div className="w-screen max-sm:h-[50%] max-sm:flex-row md:flex max-sm:p-2 p-8 justify-center items-center bg-slate-100 h-[100%]">
+      <div className="w-[50%] h-[100%] max-sm:w-[100%]">
         <div className="flex justify-center items-center">
           <img
-            src="man.svg"
-            alt="man"
-            className="w-[450px] h-[450px] rounded-lg"
+            src="right.png"
+            alt="Contact Me"
+            className="w-[500px] h-[400px] rounded-lg bg-slate-300"
           />
         </div>  
       </div>
-      <div className="w-5/12 h-96 p-6">
+      <div className="w-5/12 h-96 p-6 max-sm:h-[50%] max-sm:w-[100%] max-sm:p-2">
         <div className="pl-10 pt-6">
           <h1 className="text-2xl font-bold underline">Contact Me</h1>
           <p className="pt-8">

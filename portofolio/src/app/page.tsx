@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-1vw flex p-8 justify-center items-center">
-      <div className="w-[50%] h-96 p-6 flex items-center">
-        <div className="pt-28">
+    <div className="w-screen max-sm:flex-row md:flex p-8 justify-center items-center">
+      <div className="max-sm:w-[100%] max-sm:flex-row md:w-[50%] h-[50%] p-6 md:flex items-center">
+        <div className="max-sm:pt-0 m:pt-28">
           {/* <p className="text-2xl font-bold animate-pulse">Hello, I'm Ferdy</p> */}
           <ExampleComponent/>
           <p className="text-lg pt-2 italic">
@@ -24,22 +24,22 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-start pt-4">
             <button className="bg-black rounded-lg text-white text-xs text-center self-center px-3 py-2 my-2 mx-2 flex gap-2">
-              <img src="git.svg" alt="github" className="w-4 h-4 bg-white rounded-full" />github
+              <img src="git.gif" alt="github" className="w-4 h-4 bg-white rounded-full" />Github
             </button>
             <button className="bg-blue-600 rounded-lg text-white text-xs text-center self-center px-3 py-2 my-2 mx-2 flex gap-2">
-            <img src="discord.svg" alt="discord" className="w-4 h-4 bg-white rounded-full" />discord
+            <img src="discord.gif" alt="discord" className="w-4 h-4 rounded-full" />Discord
             </button>
             <button className="bg-pink-500 rounded-lg text-white text-xs text-center self-center px-3 py-2 my-2 mx-2 flex gap-2">
-            <img src="ig.svg" alt="instagram" className="w-4 h-4 bg-white rounded-full" />instagram
+            <img src="ig.gif" alt="instagram" className="w-4 h-4 bg-white rounded-full" />Instagram
             </button>
           </div>
         </div>
       </div>
-      <div className="w-[50%] h-96 flex justify-center">
+      <div className="max-sm:w-[100%] max-sm:flex-row md:w-[50%] h-[50%] flex justify-center">
         <img
-          src="man.svg"
+          src="mansuit.png"
           alt="man"
-          className="bg-slate-200 rounded-lg w-[425px] h-[550px] ml-6 brightness-100"
+          className="rounded-lg w-[400px] h-[550px] brightness-100 border-2"
         />
       </div>
     </div>
