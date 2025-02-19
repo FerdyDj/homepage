@@ -31,12 +31,15 @@ export default function About() {
       <div className="flex w-[100%] justify-center gap-1">
         <p className="text-gray-700">Age : 21</p>
       </div>
+      <div className="flex w-[100%] justify-center gap-1">
+        <p className="text-gray-700">Hobby : Travelling</p>
+      </div>
       <div className="p-4 w-[100%] flex justify-center">
         <h1 className="text-2xl font-bold underline text-gray-800">
           My Tech Skills
         </h1>
       </div>
-      <Marquee>
+      <Marquee direction="right" pauseOnHover gradient gradientColor="rgb(219 234 254)" gradientWidth={200}>
         <div className="p-4 w-[100%] flex justify-center gap-16">
           <img src="html.svg" alt="html" className="w-12 h-12" />
           <img src="css.svg" alt="css" className="w-12 h-12" />
