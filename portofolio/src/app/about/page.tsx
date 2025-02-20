@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 export default function About() {
   return (
-    <div className="w-screen p-6 bg-blue-100">
+    <div className="w-screen p-6 bg-blue-100" id="about">
       <div className="w-[100%] flex justify-center">
         <img
           src="laptop.jpg"

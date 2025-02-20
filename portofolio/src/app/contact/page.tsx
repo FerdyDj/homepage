@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="w-screen max-sm:h-[50%] max-sm:flex-row md:flex max-sm:p-2 p-8 justify-center items-center bg-slate-100 h-[100%]">
+    <div id="contact" className="w-screen max-sm:h-[50%] max-sm:flex-row md:flex max-sm:p-2 p-8 justify-center items-center bg-slate-100 h-[100%]">
       <div className="w-[50%] h-[100%] max-sm:w-[100%]">
         <div className="flex justify-center items-center">
           <img
