@@ -81,7 +81,7 @@ export default function Testi() {
                 but this one caught my attention for its efficient design and
                 functional features. Your ability to balance user-centric design
                 with technical backend work is impressive for someone at the
-                junior level. The project is robust, it's impressive. I&apos;m
+                junior level. The project is robust, it&apos;s impressive. I&apos;m
                 excited to see your growth!”
               </p>
               <div className="flex items-center mt-8">
