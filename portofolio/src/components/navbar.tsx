@@ -2,18 +2,30 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="flex w-screen">
-      <div className="h-[60px] w-[50%] bg-blue-500 flex justify-start items-center pl-14 text-white font-bold">
+    <div className="md:flex flex-row items-center justify-start sm:justify-between sm:px-12 px-4 h-[60px] bg-blue-500 max-w-screen sticky top-0 z-50">
+      <div className="text-white font-bold">
         <p className="animate-pulse">PORTFOLIO</p>
       </div>
-      <div className="h-[60px] w-[50%] bg-blue-500 flex justify-end items-center gap-3 text-white max-sm:justify-end px-6">
-        <Link href={"/"} className="hover:text-orange-300">
+      <div className="flex gap-3 text-white">
+        <Link href={"#home"} className="hover:text-orange-300 hover:underline hover:decoration-orange-300 hover:underline-offset-4 hover:decoration-2">
           Home
         </Link>
-        <Link href={"/about"} className="hover:text-orange-300">
+        <Link href={"#about"} className="hover:text-orange-300 hover:underline hover:decoration-orange-300 hover:underline-offset-4 hover:decoration-2">
           About
         </Link>
-        <Link href={"/contact"} className="hover:text-orange-300">
+        <Link href={"#skills"} className="hover:text-orange-300 hover:underline hover:decoration-orange-300 hover:underline-offset-4 hover:decoration-2">
+          Skills
+        </Link>
+        <Link href={"#portfolio"} className="hover:text-orange-300 hover:underline hover:decoration-orange-300 hover:underline-offset-4 hover:decoration-2">
+          Portfolio
+        </Link>
+        <Link href={"#experience"} className="hover:text-orange-300 hover:underline hover:decoration-orange-300 hover:underline-offset-4 hover:decoration-2">
+          Experience
+        </Link>
+        <Link href={"#testimonials"} className="hover:text-orange-300 hover:underline hover:decoration-orange-300 hover:underline-offset-4 hover:decoration-2">
+          Testimonials
+        </Link>
+        <Link href={"#contact"} className="hover:text-orange-300 hover:underline hover:decoration-orange-300 hover:underline-offset-4 hover:decoration-2">
           Contact
         </Link>
       </div>
