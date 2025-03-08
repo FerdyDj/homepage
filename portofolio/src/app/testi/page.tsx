@@ -10,7 +10,7 @@ export default function Testi() {
         <p className="uppercase tracking-wider mb-8 text-gray-600 text-center">
           our happy clients are saying...
         </p>
-        <div className="flex flex-col md:flex-row md:-  mx-3">
+        <div className="flex flex-col md:flex-row mx-3">
           <div className="flex-1 px-3">
             <div className="p-12 rounded-lg border border-solid border-gray-200 mb-8 box-shadow:0 10px 28px rgba(0,0,0,.08)">
               <p className="text-xl font-semibold">

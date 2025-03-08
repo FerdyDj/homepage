@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MyPortfolio() {
   return (
     <div>
-      <div className="flex-row justify-center items-center border border-gray-300 rounded-md">
+      <div className="border border-gray-300 rounded-md">
         <div className="w-full h-[330px] overflow-hidden">
           <Image
             src={"/portfolioweb.png"}

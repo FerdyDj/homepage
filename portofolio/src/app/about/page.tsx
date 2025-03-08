@@ -4,7 +4,7 @@ import Key from "./_components/key";
 
 export default function About() {
   return (
-    <div className="w-screen p-6 bg-blue-100">
+    <div className="w-full p-6 bg-blue-100">
       <AboutMe />
       <CoreSkill />
       <Key />

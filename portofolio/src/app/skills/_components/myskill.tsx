@@ -1,10 +1,10 @@
 export default function MySkill() {
   return (
     <div>
-      <div className="p-4 my-16 w-[100%] flex justify-center">
+      <div className="p-4 my-16 flex justify-center">
         <h2 className="text-3xl font-bold text-gray-800">Technical Skills</h2>
       </div>
-      <div className="flex w-[100%] justify-center gap-1 my-3 mb-48">
+      <div className="flex justify-center gap-1 my-3 mb-48">
         <ul className="list-disc text-gray-700 w-[450px]">
           <li>
             <span className="font-bold">Frontend Development:</span> HTML5,

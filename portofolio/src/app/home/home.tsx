@@ -7,10 +7,10 @@ import { FaDiscord, FaGithub, FaInstagram } from "react-icons/fa";
 export default function Home() {
   return (
     <div>
-      <div className="w-screen max-sm:flex-row md:flex p-8 md:mt-5 justify-center items-center">
-        <div className="max-sm:w-[100%] max-sm:flex-row md:w-[50%] h-[50%] p-6 md:flex items-center">
+      <div className="w-screen flex-row md:flex p-8 md:mt-5 justify-center items-center">
+        <div className="w-full flex-row md:w-[50%] h-[50%] p-6 md:flex items-center">
           <Motion direction="left">
-            <div className="max-sm:pt-0 m:pt-28">
+            <div>
               <ExampleComponent />
               <h1 className="text-2xl pt-2 italic text-blue-500">
                 Professional Fullstack Web Development
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
           </Motion>
         </div>
-        <div className="max-sm:w-[100%] max-sm:flex-row md:w-[50%] h-[50%] flex justify-center">
+        <div className="w-full flex-row md:w-[50%] h-[50%] flex justify-center">
           <Motion direction="right">
             <Image
               src="/mansuit.png"

@@ -14,7 +14,7 @@ export default function Skills() {
         gradientColor="rgb(255 255 255)"
         gradientWidth={200}
       >
-        <div className="p-4 w-[100%] flex justify-center gap-[68px]">
+        <div className="p-4 flex justify-center gap-[68px]">
           <FaHtml5 className="w-12 h-12 text-orange-500"/>
           <FaCss3Alt className="w-12 h-12 text-blue-500" />
           <SiTailwindcss className="w-12 h-12 text-sky-500" />
