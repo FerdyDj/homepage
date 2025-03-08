@@ -1,4 +1,3 @@
-import Image from "next/image";
 import MyPortfolio from "./_components/myportfolio";
 import BlogApp from "./_components/blogapp";
 import ComProf from "./_components/comprof";
